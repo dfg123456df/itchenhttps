@@ -1,0 +1,38 @@
+{
+  "groups": [
+    {
+      "name": "jdbc",
+      "type": "it.chen.config.JdbcProperties",
+      "sourceType": "it.chen.config.JdbcProperties"
+    },
+    {
+      "name": "jdbc",
+      "type": "javax.sql.DataSource",
+      "sourceType": "it.chen.config.JdbcConfiguration",
+      "sourceMethod": "dataSource()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jdbc.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "it.chen.config.JdbcProperties"
+    },
+    {
+      "name": "jdbc.password",
+      "type": "java.lang.String",
+      "sourceType": "it.chen.config.JdbcProperties"
+    },
+    {
+      "name": "jdbc.url",
+      "type": "java.lang.String",
+      "sourceType": "it.chen.config.JdbcProperties"
+    },
+    {
+      "name": "jdbc.username",
+      "type": "java.lang.String",
+      "sourceType": "it.chen.config.JdbcProperties"
+    }
+  ],
+  "hints": []
+}
